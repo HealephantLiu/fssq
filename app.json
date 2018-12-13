@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#eaeaea"
+  },
+  "tabBar": {
+    "color":"black",
+    "borderStryle":"white",
+    "selectedColor": "rgb(176,170,168)",
+    "backgroundColor":"#white",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "公司介绍",
+        "iconPath": "images/tabBar/tabBar_essence_click_icon.png",
+        "selectedIconPath": "images/tabBar/tabBar_essence_icon.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "装修案例",
+        "iconPath": "images/tabBar/tabBar_new_click_icon.png",
+        "selectedIconPath": "images/tabBar/tabBar_new_icon.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "在线客服",
+        "iconPath": "images/tabBar/tabBar_friendTrends_click_icon.png",
+        "selectedIconPath": "images/tabBar/tabBar_friendTrends_icon.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "立即下单",
+        "iconPath": "images/tabBar/tabBar_me_click_icon.png",
+        "selectedIconPath": "images/tabBar/tabBar_me_icon.png"
+      }
+    ]
+  }
+}
